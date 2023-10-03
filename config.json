@@ -1,0 +1,187 @@
+[
+    {
+        "name": "YouTube",
+        "package": "com.google.android.youtube",
+        "apk": "https://www.apkmirror.com/apk/google-inc/youtube/youtube-VERSION-release/youtube-VERSION-android-apk-download/"
+    },
+    {
+        "name": "Twitch",
+        "package": "tv.twitch.android.app",
+        "apk": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/twitch-VERSION-release/twitch-live-game-streaming-VERSION-2-android-apk-download/"
+    },
+    {
+        "name": "YouTube Music",
+        "package": "com.google.android.apps.youtube.music",
+        "apk": "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+    },
+    {
+        "name": "Sync for Reddit",
+        "package": "com.laurencedawson.reddit_sync",
+        "apk": "https://www.apkmirror.com/apk/red-apps-ltd/sync-for-reddit/sync-for-reddit-v23-06-30-1339-release/sync-for-reddit-v23-06-30-1339-2-android-apk-download/"
+    },
+    {
+        "name": "TikTok",
+        "package": "com.ss.android.ugc.trill",
+        "apk": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
+    },
+    {
+        "name": "TikTok",
+        "package": "com.zhiliaoapp.musically",
+        "apk": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+    },
+    {
+        "name": "Lightroom",
+        "package": "com.adobe.lrmobile",
+        "apk": "https://www.apkmirror.com/apk/adobe/lightroom/"
+    },
+    {
+        "name": "Reddit",
+        "package": "com.reddit.frontpage",
+        "apk": "https://www.apkmirror.com/apk/redditinc/reddit/"
+    },
+    {
+        "name": "Facebook Messenger",
+        "package": "com.facebook.orca",
+        "apk": "https://www.apkmirror.com/apk/facebook-2/messenger/"
+    },
+    {
+        "name": "Twitter",
+        "package": "com.twitter.android",
+        "apk": "https://www.apkmirror.com/apk/x-corp/twitter/"
+    },
+    {
+        "name": "Inshorts",
+        "package": "com.nis.app",
+        "apk": "https://www.apkmirror.com/apk/inshorts-formerly-news-in-shorts/inshorts-news-in-60-words-2/"
+    },
+    {
+        "name": "Pixiv",
+        "package": "jp.pxv.android",
+        "apk": "https://www.apkmirror.com/apk/pixiv-inc/pixiv/"
+    },
+    {
+        "name": "Instagram",
+        "package": "com.instagram.android",
+        "apk": "https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-VERSION-release/instagram-VERSION-2-android-apk-download/"
+    },
+    {
+        "name": "Backdrops",
+        "package": "com.backdrops.wallpapers",
+        "apk": "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/backdrops-wallpapers-VERSION-release/backdrops-wallpapers-VERSION-android-apk-download/"
+    },
+    {
+        "name": "WarnWetter",
+        "package": "de.dwd.warnapp",
+        "apk": "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
+    },
+    {
+        "name": "IrPlus",
+        "package": "net.binarymode.android.irplus",
+        "apk": "https://www.apkmirror.com/apk/binarymode/irplus-infrared-remote/"
+    },
+    {
+        "name": "Sony Headphones Connect",
+        "package": "com.sony.songpal.mdr",
+        "apk": "https://www.apkmirror.com/apk/sony-corporation/sony-headphones-connect/"
+    },
+    {
+        "name": "NetGuard",
+        "package": "eu.faircode.netguard",
+        "apk": "https://www.apkmirror.com/apk/marcel-bokhorst/netguard-no-root-firewall/"
+    },
+    {
+        "name": "Google Recorder",
+        "package": "com.google.android.apps.recorder",
+        "apk": "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+    },
+    {
+        "name": "Solid Explorer",
+        "package": "pl.solidexplorer2",
+        "apk": "https://www.apkmirror.com/apk/neatbytes/solid-explorer-beta/"
+    },
+    {
+        "name": "BaconReader",
+        "package": "com.onelouder.baconreader",
+        "apk": "https://www.apkmirror.com/apk/onelouder-apps/baconreader-for-reddit/"
+    },
+    {
+        "name": "Relay for Reddit",
+        "package": "free.reddit.news",
+        "apk": "https://www.apkmirror.com/apk/dbrady/relay-for-reddit-2/"
+    },
+    {
+        "name": "Reddit is Fun",
+        "package": "com.andrewshu.android.reddit",
+        "apk": "https://www.apkmirror.com/apk/talklittle/reddit-is-fun/"
+    },
+    {
+        "name": "Infinity for Reddit",
+        "package": "ml.docilealligator.infinityforreddit",
+        "apk": "https://www.apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
+    },
+    {
+        "name": "Boost for Reddit",
+        "package": "com.rubenmayayo.reddit",
+        "apk": "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
+    },
+    {
+        "name": "Slide for Reddit",
+        "package": "me.ccrama.redditslide",
+        "apk": "https://www.apkmirror.com/apk/haptic-apps/slide-for-reddit/"
+    },
+    {
+        "name": "Duolingo",
+        "package": "com.duolingo",
+        "apk": "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
+    },
+    {
+        "name": "Yuka",
+        "package": "io.yuka.android",
+        "apk": "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
+    },
+    {
+        "name": "CandyLink VPN",
+        "package": "com.candylink.openvpn",
+        "apk": "https://www.apkmirror.com/apk/liondev-io/candylink-vpn/"
+    },
+    {
+        "name": "Nyx Music Player",
+        "package": "com.awedea.nyx",
+        "apk": "https://www.apkmirror.com/apk/awedea/nyx-music-player/"
+    },
+    {
+        "name": "VSCO",
+        "package": "com.vsco.cam",
+        "apk": "https://www.apkmirror.com/apk/vsco/vsco-cam/"
+    },
+    {
+        "name": "Meme Generator",
+        "package": "com.zombodroid.MemeGenerator",
+        "apk": "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/meme-generator-free-VERSION-release/meme-generator-VERSION-2-android-apk-download/"
+    },
+    {
+        "name": "Trakt",
+        "package": "tv.trakt.trakt",
+        "apk": "https://www.apkmirror.com/apk/trakt/trakt/trakt-VERSION-release/trakt-VERSION-android-apk-download/"
+    },
+    {
+        "name": "Icon Pack Studio",
+        "package": "ginlemon.iconpackstudio",
+        "apk": "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/icon-pack-studio-VERSION-release/icon-pack-studio-VERSION-2-android-apk-download/"
+    },
+    {
+        "name": "Windy",
+        "package": "co.windyapp.android",
+        "apk": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/windy-wind-weather-forecast-VERSION-release/windy-app-wind-weather-live-VERSION-android-apk-download/"
+    },
+    {
+        "name": "Strava",
+        "package": "com.strava",
+        "apk": "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/strava-running-and-cycling-gps-VERSION-release/strava-run-bike-hike-VERSION-2-android-apk-download/"
+    },
+    {
+        "name": "TickTick",
+        "package": "com.ticktick.task",
+        "apk": "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/ticktick-to-do-list-with-reminder-day-planner-VERSION-release/ticktickto-do-list-calendar-VERSION-android-apk-download/"
+    }
+]
