@@ -39,7 +39,7 @@ fetch('./config.json').then(response => response.json()).then(config => {
                 const apk = version ? option.apk.replace(/VERSION/g, version.replace(/\./g, '-')) : option.apk
 
                 if ( packageFromUrl && packageFromUrl == package){
-                    window.open(apk, '_blank');
+                    window.location.href = apk
                 }
 
                 const a = document.createElement('a')
