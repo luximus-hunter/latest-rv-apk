@@ -1,5 +1,6 @@
 const revancedApi = "https://api.revanced.app/v2/patches/latest"
 
+const redirecting = document.getElementById('redirecting')
 const apks = document.getElementById('apks')
 const versionLess = document.getElementById('version-less')
 const notOnAPKMirror = document.getElementById('not-on-apkmirror')
@@ -10,25 +11,56 @@ const packageFromUrl = window.location.search.substring(1)
 const currentYear = new Date().getFullYear()
 footer.innerHTML = `© ${currentYear} Thomas Lipman`
 
+if (packageFromUrl) {
+    redirecting.classList.remove('hidden')
+    apks.classList.add('hidden')
+    versionLess.classList.add('hidden')
+    notOnAPKMirror.classList.add('hidden')
+}
+
 fetch('./config.json').then(response => response.json()).then(config => {
     fetch(revancedApi).then(res => res.json()).then(data => {
-        let packages = data.patches.map(patch => patch.compatiblePackages.map(package => package.name)).flat()
+
+        let packages = data.patches.map(patch => {
+            if (!patch.compatiblePackages) {
+                return patch.package
+            }
+            const d = patch.compatiblePackages.map(package => package.name)
+            console.log(d)
+            return d
+        }).flat()
         packages = uniq(packages)
+
+        packages = packages.sort((a, b) => {
+            a = a.toLowerCase()
+            b = b.toLowerCase()
+            if (a < b) {
+                return -1
+            }
+            if (a > b) {
+                return 1
+            }
+            return 0
+        })
     
         packages.forEach(package => {
             const option = config.find(option => option.package === package)
 
             if (option) {
-                const patches = data.patches.filter(patch => {
+                const patches = data.patches.filter(patch => {            
+                    if (!patch.compatiblePackages) {
+                        return patch.package
+                    }
                     const supportedPackages = patch.compatiblePackages.map(package => package.name)
                     return supportedPackages.includes(package)
                 })
 
-                console.log(patches)
-
                 const versions = patches.map(patch => patch.compatiblePackages.map(package => package.versions).flat()).flat()
 
                 versions.sort ((a, b) => {
+                    if (!a || !b) {
+                        return 0
+                    }
                     a = parseInt(a.replace(/\./g, ''))
                     b = parseInt(b.replace(/\./g, ''))
                     return a - b
@@ -39,7 +71,8 @@ fetch('./config.json').then(response => response.json()).then(config => {
                 const apk = version ? option.apk.replace(/VERSION/g, version.replace(/\./g, '-')) : option.apk
 
                 if ( packageFromUrl && packageFromUrl == package){
-                    window.location.href = apk
+                    redirecting.innerHTML = `Redirecting you to ${version ? `${option.name} (${version})` : option.name}`
+                    // window.location.href = apk
                 }
 
                 const a = document.createElement('a')
@@ -50,8 +83,12 @@ fetch('./config.json').then(response => response.json()).then(config => {
             } else {
                 console.error('No config found for ' + package)
 
+                if (!package) {
+                    return
+                }
+
                 const s = document.createElement('span')
-                s.innerHTML = package
+                s.innerHTML = `${package}`
                 notOnAPKMirror.appendChild(s)
             }
         })

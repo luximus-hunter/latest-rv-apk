@@ -2,12 +2,12 @@
     {
         "name": "YouTube",
         "package": "com.google.android.youtube",
-        "apk": "https://www.apkmirror.com/apk/google-inc/youtube/youtube-VERSION-release/youtube-VERSION-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/google-inc/youtube/youtube-VERSION-release/"
     },
     {
         "name": "Twitch",
         "package": "tv.twitch.android.app",
-        "apk": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/twitch-VERSION-release/twitch-live-game-streaming-VERSION-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/twitch-VERSION-release/"
     },
     {
         "name": "YouTube Music",
@@ -17,7 +17,7 @@
     {
         "name": "Sync for Reddit",
         "package": "com.laurencedawson.reddit_sync",
-        "apk": "https://www.apkmirror.com/apk/red-apps-ltd/sync-for-reddit/sync-for-reddit-v23-06-30-1339-release/sync-for-reddit-v23-06-30-1339-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/red-apps-ltd/sync-for-reddit/sync-for-reddit-v23-06-30-1339-release/"
     },
     {
         "name": "TikTok",
@@ -62,12 +62,12 @@
     {
         "name": "Instagram",
         "package": "com.instagram.android",
-        "apk": "https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-VERSION-release/instagram-VERSION-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-instagram-VERSION-release/"
     },
     {
         "name": "Backdrops",
         "package": "com.backdrops.wallpapers",
-        "apk": "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/backdrops-wallpapers-VERSION-release/backdrops-wallpapers-VERSION-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/backdrops-wallpapers-VERSION-release/"
     },
     {
         "name": "WarnWetter",
@@ -157,31 +157,31 @@
     {
         "name": "Meme Generator",
         "package": "com.zombodroid.MemeGenerator",
-        "apk": "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/meme-generator-free-VERSION-release/meme-generator-VERSION-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/meme-generator-free-VERSION-release/"
     },
     {
         "name": "Trakt",
         "package": "tv.trakt.trakt",
-        "apk": "https://www.apkmirror.com/apk/trakt/trakt/trakt-VERSION-release/trakt-VERSION-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/trakt/trakt/trakt-VERSION-release/"
     },
     {
         "name": "Icon Pack Studio",
         "package": "ginlemon.iconpackstudio",
-        "apk": "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/icon-pack-studio-VERSION-release/icon-pack-studio-VERSION-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/icon-pack-studio-VERSION-release/"
     },
     {
         "name": "Windy",
         "package": "co.windyapp.android",
-        "apk": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/windy-wind-weather-forecast-VERSION-release/windy-app-wind-weather-live-VERSION-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/windy-wind-weather-forecast-VERSION-release/"
     },
     {
         "name": "Strava",
         "package": "com.strava",
-        "apk": "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/strava-running-and-cycling-gps-VERSION-release/strava-run-bike-hike-VERSION-2-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/strava-running-and-cycling-gps-VERSION-release/"
     },
     {
         "name": "TickTick",
         "package": "com.ticktick.task",
-        "apk": "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/ticktick-to-do-list-with-reminder-day-planner-VERSION-release/ticktickto-do-list-calendar-VERSION-android-apk-download/"
+        "apk": "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/ticktick-to-do-list-with-reminder-day-planner-VERSION-release/"
     }
 ]
