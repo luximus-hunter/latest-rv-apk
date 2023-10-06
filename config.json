@@ -7,7 +7,7 @@
     {
         "name": "Twitch",
         "package": "tv.twitch.android.app",
-        "apk": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/twitch-VERSION-release/"
+        "apk": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
     },
     {
         "name": "YouTube Music",
@@ -17,7 +17,7 @@
     {
         "name": "Sync for Reddit",
         "package": "com.laurencedawson.reddit_sync",
-        "apk": "https://www.apkmirror.com/apk/red-apps-ltd/sync-for-reddit/sync-for-reddit-v23-06-30-1339-release/"
+        "apk": "https://www.apkmirror.com/apk/red-apps-ltd/sync-for-reddit/"
     },
     {
         "name": "TikTok",
@@ -167,12 +167,12 @@
     {
         "name": "Icon Pack Studio",
         "package": "ginlemon.iconpackstudio",
-        "apk": "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/icon-pack-studio-VERSION-release/"
+        "apk": "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
     },
     {
         "name": "Windy",
         "package": "co.windyapp.android",
-        "apk": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/windy-wind-weather-forecast-VERSION-release/"
+        "apk": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
     },
     {
         "name": "Strava",
@@ -182,6 +182,6 @@
     {
         "name": "TickTick",
         "package": "com.ticktick.task",
-        "apk": "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/ticktick-to-do-list-with-reminder-day-planner-VERSION-release/"
+        "apk": "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
     }
 ]

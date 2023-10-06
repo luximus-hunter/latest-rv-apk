@@ -8,7 +8,7 @@
     outline: none;
 }
 
-a, span {
+a:not(:first-child), span:not(:first-child) {
     display: block;
     margin-top: .5rem;
     color: inherit;
@@ -27,6 +27,10 @@ body, .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .5rem;
+    margin: .5rem 0;
+}
+
+#redirecting {
     margin: .5rem 0;
 }
 
@@ -52,7 +56,7 @@ body, .card {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 @media (prefers-color-scheme: dark) {

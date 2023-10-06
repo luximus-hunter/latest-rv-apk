@@ -1,6 +1,7 @@
 const revancedApi = "https://api.revanced.app/v2/patches/latest"
 
 const redirecting = document.getElementById('redirecting')
+const columns = document.getElementById('columns')
 const apks = document.getElementById('apks')
 const versionLess = document.getElementById('version-less')
 const notOnAPKMirror = document.getElementById('not-on-apkmirror')
@@ -13,9 +14,7 @@ footer.innerHTML = `© ${currentYear} Thomas Lipman`
 
 if (packageFromUrl) {
     redirecting.classList.remove('hidden')
-    apks.classList.add('hidden')
-    versionLess.classList.add('hidden')
-    notOnAPKMirror.classList.add('hidden')
+    columns.classList.add('hidden')
 }
 
 fetch('./config.json').then(response => response.json()).then(config => {
@@ -26,7 +25,6 @@ fetch('./config.json').then(response => response.json()).then(config => {
                 return patch.package
             }
             const d = patch.compatiblePackages.map(package => package.name)
-            console.log(d)
             return d
         }).flat()
         packages = uniq(packages)
@@ -55,6 +53,8 @@ fetch('./config.json').then(response => response.json()).then(config => {
                     return supportedPackages.includes(package)
                 })
 
+                console.log(patches.map(patch => patch.name).flat())
+
                 const versions = patches.map(patch => patch.compatiblePackages.map(package => package.versions).flat()).flat()
 
                 versions.sort ((a, b) => {
@@ -71,8 +71,16 @@ fetch('./config.json').then(response => response.json()).then(config => {
                 const apk = version ? option.apk.replace(/VERSION/g, version.replace(/\./g, '-')) : option.apk
 
                 if ( packageFromUrl && packageFromUrl == package){
-                    redirecting.innerHTML = `Redirecting you to ${version ? `${option.name} (${version})` : option.name}`
-                    // window.location.href = apk
+                    const span = document.createElement('span')
+                    span.innerHTML = `Redirecting you to ${version ? `${option.name} (${version})` : option.name}`
+                    redirecting.appendChild(span)
+
+                    const link = document.createElement('a')
+                    link.href = apk
+                    link.innerHTML = 'Click here if you are not redirected'
+                    redirecting.appendChild(link)
+
+                    window.location.href = apk
                 }
 
                 const a = document.createElement('a')
@@ -80,6 +88,8 @@ fetch('./config.json').then(response => response.json()).then(config => {
                 a.innerHTML = version ? `${option.name} (${version})` : option.name
 
                 version ? apks.appendChild(a) : versionLess.appendChild(a)
+
+                console.info(`Found config for ${package}`)
             } else {
                 console.error('No config found for ' + package)
 
